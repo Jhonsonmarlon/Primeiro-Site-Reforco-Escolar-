@@ -103,6 +103,7 @@ button.slick-next {
 
 .slick-initialized {
     overflow: hidden;
+    height: 449px;
 }
 
 .slick-dots li button {
@@ -138,8 +139,9 @@ li.slick-active button {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 40px 40px 48px 40px;
+    padding: 90px 40px 90px 40px;
     gap: 32px;
+    border-top: 2px solid #d8d5d5;
 }
 
 .main-2-imagem {
@@ -162,16 +164,27 @@ li.slick-active button {
 
 .main-3 {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .main-3-titulo {
-    font-family: 'Righteous', sand-serif;
-    height: 0;
-    position: absolute;
-    right: 43%;
-    font-size: x-large;
-    top: 1090px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    font-family: 'Righteous';
+    font-size: 23px;
+    border-top: 2px solid #d8d5d5;
+}
+
+.main-3-titulo h2 {
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+
+.main-3-aprovados {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .main-3-item {
@@ -185,7 +198,7 @@ li.slick-active button {
 }
 
 #a, #b, #c {
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
 #d, #e, #f {
@@ -205,7 +218,7 @@ li.slick-active button {
 
 .footer-1 {
     background-color: rgb(241, 240, 240);
-    padding: 200px 100px 200px 0;
+    padding: 150px 100px 200px 0;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -214,65 +227,64 @@ li.slick-active button {
 .footer-1-texto-botao {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 35px;
 }
 
-.footer-1-texto-botao h2 {
+.footer-1-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-1-texto-titulo {
     font-family: 'Sarala', sans-serif;
     color: black;
-    font size: 27px;
+    font-size: 27px;
 }
 
-.footer-1-texto-botao p {
+.footer-1-texto p {
     text-align: justify;
 }
 
-.footer-1-whats {
+.footer-1-botao button {
+    font-style: italic;
+    background-image: url(../img/whatsapp.png);
+    background-repeat: no-repeat;
+    background-position: 8%;
+    padding: 10px 20px 10px 40px;
+    font-family: 'Sarala';
+    color: white;
     background-color: #009841;
     border: 1px solid black;
-    border-radius: 4.5rem;
-    font-size: medium;
-    margin-top: 20px;
-    padding: 5px 0 5px 50px;
-    width: 187px;
-}
-
-.footer-1-whats-b button {
-    color: white;
-    font-family: 'Sarala';
-    font-size: 20px;
-    width: 60px;
-    background-color: transparent;
-}
-
-.footer-1-whats-icon {
-    top: 2210px;
-    position: absolute;
-    left: 160px;
+    border-radius: 10.5px;
 }
 
 .footer-1-ctts {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    align-items: flex-start;
+    gap: 20px;
 }
 
-.footer-1-ctts-icon-tel {
-    position: absolute;
-    top: 2102px;
-    left: 760px;
+.ctts-1 {
+    background-image: url(../img/icon-tel.png);
+    background-repeat: no-repeat;
+    background-position: 1%;
+    padding-left: 30px;
 }
 
-.footer-1-ctts-icon-end {
-    position: absolute;
-    top: 2150px;
-    left: 760px;
+.ctts-2 {
+    background-image: url(../img/icon-end.png);
+    background-repeat: no-repeat;
+    background-position: 1%;
+    padding-left: 30px;
 }
 
-.footer-1-ctts-icon-mail {
-    position: absolute;
-    top: 2207px;
-    left: 760px;
+.ctts-3 {
+    background-image: url(../img/icon-mail.png);
+    background-repeat: no-repeat;
+    background-position: 1%;
+    padding-left: 30px;
 }
 
 .footer-2 {
