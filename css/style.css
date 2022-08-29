@@ -42,6 +42,7 @@ body {
     background-color: white;
     padding: 20px 120px 20px 150px;
     border-bottom: 4px solid #efefef;
+    gap: 170px;
 }
 
 .header-2-menu {
