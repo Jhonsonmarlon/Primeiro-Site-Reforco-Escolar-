@@ -38,11 +38,11 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     background-color: white;
-    padding: 20px 120px 20px 150px;
+    padding: 20px 13px 20px 37px;
     border-bottom: 4px solid #efefef;
-    gap: 170px;
+    gap: 100px;
 }
 
 .header-2-menu {
